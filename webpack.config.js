@@ -26,5 +26,9 @@ module.exports = {
             template: path.join(__dirname, "src/index.html")
         }),
     ],
+    devServer: {
+        contentBase: path.join(__dirname, "dist"),
+        port: 9000,
+    },
 };
 
