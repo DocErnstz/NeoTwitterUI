@@ -19,6 +19,23 @@ module.exports = {
                     },
                 }
             },
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"]
+            },
+            {
+                test: /\.(eot|ttf|svg|woff|woff2|png|jpe?g|gif)$/,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: 'img/',
+                        publicPath: 'img/'
+                    }
+                  },
+                ],
+              },
         ],
     },
     plugins: [
@@ -31,4 +48,5 @@ module.exports = {
         port: 9000,
     },
 };
+
 

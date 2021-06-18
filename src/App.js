@@ -1,12 +1,23 @@
-
 import React from 'react';
+import styles from "./App.css";
+import Leftbar from "./sides/leftbar/leftbar.js";
+import Rightbar from "./sides/rightbar/rightbar.js";
+import Main from "./sides/main/main.js";
 
-function App() {
+
+
+const App = () => {
   return (
-    <div>
-      <h1>Hola React 2</h1>
+    
+     <div className="app">
+        <Leftbar/>
+        <Main/>
+        <Rightbar/>
     </div>
+   
   );
 }
+
+
 
 export default App;

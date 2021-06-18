@@ -1,0 +1,51 @@
+.leftbar{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 1fr 150px;
+    background-color: transparent;
+    height: 665px;
+    
+    
+}
+
+.header{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.leftbar .container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    
+}
+.leftbar .container > div{
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+}
+
+.leftbar .container > div *:first-child{
+    margin-right: 10px;
+}
+
+.profile{
+    display: flex;
+    color: black;
+    font-size: 10px;
+}
+
+.profile .card{
+    margin-right: 20px;
+}
+.profile img{
+    width: 100px;
+}
+.profile .container-row{
+    height: 30px;
+    padding: 5px;
+    align-self: flex-end;
+}
