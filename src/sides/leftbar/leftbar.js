@@ -49,8 +49,11 @@ const Leftbar = () => {
           <MoreHorizIcon/>
           <h1>More</h1>
         </div>
-        
-        <a href="" class="btn">Tweetear</a>
+        <div>
+          <div class="text-button">
+          Tweet
+          </div>
+        </div>        
       </div>
       
       

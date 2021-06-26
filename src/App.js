@@ -8,13 +8,13 @@ import Main from "./sides/main/main.js";
 
 const App = () => {
   return (
-    
+    <div>
      <div className="app">
         <Leftbar/>
         <Main/>
-        <Rightbar/>
+        <Rightbar/> 
     </div>
-   
+    </div>
   );
 }
 
