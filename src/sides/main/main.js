@@ -8,7 +8,9 @@ function Main() {
       <div className="header"><h3>Home</h3></div>
       <div className="tweet">
         <div className="card"></div>
-        <textarea name="" value="Whats happening" id="" cols="10" rows="5"/>
+        <textarea name="" id="" cols="30" rows="30">
+          Hello world
+        </textarea>
         <div className="options">
           <div className="icons"></div>
           <a class="btn-outline">Tweet</a>

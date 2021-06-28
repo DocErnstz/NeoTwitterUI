@@ -9,7 +9,7 @@
     flex-basis: 40px;
 }
 
-.container{
+.leftbar .container{
     
     display: flex;
     flex-direction: column;
@@ -31,6 +31,21 @@
     align-items: center;
 }
 
+.leftbar .container > div, .header
+{
+    padding: 5px;
+}
+
+
+
+.leftbar .container > div:hover
+{
+    background-color: lightseagreen;
+    color: lightskyblue;
+    border-radius: 20px;
+    width: auto;
+}
+
 .leftbar .container > div *:first-child{
     margin-right: 10px;
 }
@@ -45,6 +60,7 @@
     padding: 5px 10px;
     height: 30px;
     font-size: 10px;
+    cursor: pointer;
     justify-content: center
 }
 

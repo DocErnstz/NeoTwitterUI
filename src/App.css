@@ -11,6 +11,9 @@ body{
 }
 #root{
     height: 100%;
+    --primary: #000;
+    --twitter-background: #e6ecf0;
+      
 }
 .app{
     display: flex;
